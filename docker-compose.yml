@@ -2,7 +2,7 @@ services:
   minecraft:
     image: itzg/minecraft-server:latest
     container_name: minecraft_server
-    ports:
+    ports: 
       - "25565:25565"          # porta_externa : porta_interna
     environment:
       EULA: "TRUE"             # Aceita os termos da Mojang
