@@ -7,7 +7,7 @@ services:
     environment:
       EULA: "TRUE"             # Aceita os termos da Mojang
       MEMORY: "2G"             # Memória para o servidor
-      VERSION: "1.21.5"        # Versão do Minecraft
+      VERSION: "1.21.11"        # Versão do Minecraft
       MODE: "survival"         # survival, creative, adventure
       DIFFICULTY: "normal"     # peaceful, easy, normal, hard
       ONLINE_MODE: "FALSE"      # TRUE exige login da Mojang, FALSE aceita crack
