@@ -8,6 +8,7 @@ services:
       EULA: "TRUE"             # Aceita os termos da Mojang
       MEMORY: "2G"             # Memória para o servidor
       VERSION: "1.21.1"        # Versão do Minecraft
+      TYPE: "PAPER"
       MODE: "survival"         # survival, creative, adventure
       DIFFICULTY: "normal"     # peaceful, easy, normal, hard
       ONLINE_MODE: "FALSE"      # TRUE exige login da Mojang, FALSE aceita crack
