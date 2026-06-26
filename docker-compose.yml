@@ -6,7 +6,7 @@ services:
       - "25565:25565"          # porta_externa : porta_interna
     environment:
       EULA: "TRUE"             # Aceita os termos da Mojang
-      MEMORY: "2G"             # Memória para o servidor
+      MEMORY: "6G"             # Memória para o servidor
       VERSION: "1.21.1"        # Versão do Minecraft
       TYPE: "PAPER"
       MODE: "survival"         # survival, creative, adventure
